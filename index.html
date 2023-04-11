@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="follow, index" />
+	<title data-i18n-key="app_title">DOGE Ai</title>
+	<meta name="description"
+		content='Doge AI is an artificial intelligence program
+		designed to assist users with various tasks and
+		provide helpful information.' />
+	<link rel="shortcut icon" href="dogeai.png">
+	<meta property="og:site_name" content="DogeAi" />
+	<meta property="og:description"
+		content="Doge AI is an artificial intelligence program
+		designed to assist users with various tasks and
+		provide helpful information." />
+	<meta property="og:keywords" content="DogeAi" />
+	<meta property="og:title"
+		content="Doge AI is an artificial intelligence program
+		designed to assist users with various tasks and
+		provide helpful information." />
+	<meta property="og:image" content="dogeai.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@DogeAiErc20" />
+	<meta name="twitter:title" content="DogeAi" />
+	<meta name="twitter:description"
+		content="Doge AI is an artificial intelligence program
+		designed to assist users with various tasks and
+		provide helpful information." />
+	<meta name="author" content="DogeAi" />
+	<link rel="stylesheet" href="lib/bootstrap.min.css" />
+	<link rel="stylesheet" href="lib/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="lib/aos.css" />
+	<link rel="stylesheet" href="css/main.css">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-MQJ9VFZ8LD"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-MQJ9VFZ8LD');
+	</script>
+
+	<meta name="google-site-verification" content="CQBMzkzUTt78BLKVYrm3begnAO8DRN7FNk0qApcfkNo" />
+
+</head>
+
+<body>
+	<div class="loader-wrapper">
+		<div class="d-flex">
+			<img src="dogeai.png" alt="LionCeo Logo" class="rotate">
+			<!-- <img src="/public/load.svg" alt="LionCeo Logo"> -->
+		</div>
+
+	</div>
+	<nav id="nav" class="slide-down">
+		<div class="inner"></div>
+		<div class="container">
+			<div class="nav-inner">
+				<a href="/" class="logo">
+					<img src="dogeai.png" alt="LionCeo Logo" class="desktop">
+					<img style="width: 250px; height: auto;" src="public/load.png" alt="LionCeo Logo" class="text">
+				</a>
+				<input id="menuToggle" type="checkbox">
+				<label id="mtoggle" for="menuToggle">
+					<span> </span>
+					<span> </span>
+					<span> </span>
+				</label>
+
+				<ul class="spaced key-nav">
+					<li><a href="#" title="About" data-i18n-key="about">About</a></li>
+					<li><a href="#utility" title="Utility" data-i18n-key="utility">Utility</a></li>
+					<li><a href="#tokenomics" title="Tokenomics" data-i18n-key="tokenomics">Tokenomics</a></li>
+					<li><a href="#roadmap" title="Roadmap" data-i18n-key="roadmap">Roadmap</a></li>
+					<li><a href="public/lionceo-wp.pdf" target="_blank" title="White Paper"
+							data-i18n-key="whitePaper">WhitePaper</a></li>
+
+				</ul>
+				<div class="gr-btn">
+					<a class="link-social" href="https://twitter.com/DogeAiErc20" target="_blank">
+						<img src="./images/icon/twitter-b.svg" alt="LionCeo">
+					</a>
+					<a class="link-social" href="https://t.me/dogeai_erc20" target="_blank">
+						<img src="./images/icon/telegram-b.svg" alt="LionCeo">
+					</a>
+					<div class="custom-btn">
+						<a target="_blank"
+							href="">
+							<img src="./images/bg/buy.svg" alt="LionCeo">
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section id="hero" class="hero">
+		<!-- <img class="absolute clound" src="./images/smoke.webp" alt="LionCEO">
+		<img class="absolute clound s2" src="./images/smoke.webp" alt="LionCEO"> -->
+		<div class="container">
+			<div class="row">
+				<div class="content">
+			
+					<span class="sub-title tg-text-gradient" data-i18n-key="sub">
+						<br><br><br>
+						WELCOME TO
+					</span>
+					<h1>
+						<!-- <span>LIONCEO</span> -->
+						<span class="typed-text"></span><span class="cursor">&nbsp;</span>
+					</h1>
+					<p data-i18n-key="sub_2"> 
+						Doge AI is an artificial intelligence program <br>
+						designed to assist users with various tasks and <br>
+						provide helpful information. It is based on the <br>
+						popular Doge meme and has a friendly and <br>
+						playful personality. Doge AI is programmed to <br>
+						respond quickly and accurately to user <br>
+						requests, and can engage in friendly <br>
+						conversation. It is capable of performing tasks <br>
+						such as scheduling, research, and providing <br>
+						information. Doge AI has a sense of humor and <br>
+						may use Doge meme phrases and expressions in <br>
+						its responses. It is a helpful and entertaining <br>
+						virtual assistant designed to make users' lives easier.
+					</p>
+					<div class="custom-btn">
+						<a target="_blank"
+							href="https://pancakeswap.finance/swap?outputCurrency=0xc60dEe4852eE6190CC440e87fC06796eC5ed4bB0&inputCurrency=BNB"
+							class=" ">
+							<img src="./images/bg/buy.svg" alt="LionCeo">
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<video muted loop autoplay id="introVideo" preload="auto" class="hero-img" poster="./images/bg/bg-hero.webp">
+			<source src="" type="video/mp4">
+		</video>
+	</section>
+
+	<div class="bg desktop"></div>
+	<section id="utility" class="utility">
+		<div class="utility-bg">
+			<img src="./images/bg/bg1.webp" alt="LionCeo" class="desktop">
+			<img src="./images/bg/bg11.webp" alt="LionCeo" class="mobile">
+		</div>
+		<div class="container">
+			<div class="d-flex mb-5">
+				<h3 class="title-h3" data-i18n-key="utility">Features</h3>
+			</div>
+		</div>
+		<div class=" ">
+			<div class="utility-list">
+				<div class="utility-item">
+					<div class="utility-inner">
+						<h3 data-i18n-key="utility_1">Task Assistance</h3>
+						<span data-i18n-key="utility_1_1"> Unlock your full creative potential</span>
+						<br>
+						<span data-i18n-key="utility_1_2">
+							Doge AI can help users with various tasks such as scheduling, setting reminders, making appointments, and sending messages.
+						</span>
+						<br><br>
+						<div class="custom-btn">
+							<a h href="" target="_blank" class="button button-area ">
+								<span class="button_lg">
+									<span class="button_sl "> </span>
+									<span class="button_text" data-i18n-key="try_now">Try Now</span>
+								</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="utility-item">
+					<div class="utility-inner">
+
+						<h3 data-i18n-key="utility_2">Information Retrieval</h3>
+						<p>
+							<span data-i18n-key="utility_2_1">
+								Doge AI can provide users with helpful information on a wide range of topics, such as news, weather, and general knowledge.
+							</span>
+							<br>
+							
+						</p>
+						<div class="custom-btn">
+							<a href="" class="button button-area ">
+								<span class="button_lg">
+									<span class="button_sl"> </span>
+									<span class="button_text" data-i18n-key="play_now">Play Now</span>
+								</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="utility-item">
+					<div class="utility-inner">
+						<!-- <div class="img">
+							<img src="./images/icon/gitbook.svg" alt="">
+						</div> -->
+						<h3 data-i18n-key="utility_3"> Personalization </h3>
+						<p>
+							<span data-i18n-key="utility_3_1"> 
+								Doge AI can be customized to suit the user's preferences and needs. It can learn from user interactions and adapt to their behavior.
+							</span>
+							<br>
+							
+						</p>
+						<div class="custom-btn">
+							<a class="button button-area ">
+								<span class="button_lg">
+									<span class="button_sl comming"> coming soon</span>
+									<span class="button_text" data-i18n-key="try_now">Try Now</span>
+								</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="utility-item">
+					<div class="utility-inner">
+						<!-- <div class="img">
+							<img src="./images/icon/gitbook.svg" alt="">
+						</div> -->
+						<h3 data-i18n-key="utility_4"> Natural Language Processing</h3>
+						<p>
+							<span data-i18n-key="utility_4_1"> 
+								Doge AI can understand and respond to natural language queries, making it easy for users to communicate with it.
+							</span>
+							<br>
+							
+						</p>
+						<div class="custom-btn">
+							<a class="button button-area " href="" target="_blank">
+								<span class="button_lg">
+									<span class="button_sl"> </span>
+									<span class="button_text" data-i18n-key="try_now">Try Now</span>
+								</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		</div>
+	</section>
+	<div class="bg-1"></div>
+	<section class="token" id="tokenomics">
+		<div class="token-bg" data-aos="fade-up">
+			<img src="./images/bg/11.webp" alt="LionCeo" class="desktop">
+			<img src="./images/bg/111.webp" alt="LionCeo" class="mobile">
+		</div>
+		<div class="container">
+			<!-- <div class="section-title mb-5">
+				<img src="./images/title/4.svg" alt="LionCeo">
+			</div> -->
+			<div class="d-flex mb-5">
+				<h3 class="title-h3" data-i18n-key="tokenomics">Tokenomics</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="token-inner">
+						<div class="token-img">
+							<img src="./images/hero/bg3.png?v=23" alt="LionCeo">
+						</div>
+						<div class="contract">
+							<span>Contract
+								address:
+								<a id="contractBSC"
+									href="#"
+									target="_blank" class="contractPrf">0x00000000000000000000000000000000000 </a>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="token-info">
+						<div class="top">
+							<div class="d-flex">
+								<span data-i18n-key="token_name">Name:</span>
+								<span> DOGE AI</span>
+							</div>
+							<div class="d-flex">
+								<span data-i18n-key="token_symbol">Symbol:</span>
+								<span> DAI</span>
+							</div>
+							<div class="d-flex">
+								<span data-i18n-key="token_blockchain">Blockchain:</span>
+								<span> ETHEREUM</span>
+							</div>
+						</div>
+						<div class="token-item">
+							<div class="token-item-inner">
+								<div class="left">
+									<span class="main"></span>
+									<span data-i18n-key="token_burning"> Total Supply</span>
+								</div>
+								<div class="d-flex">
+									<span> </span>
+									<span>1,000,000,000</span>
+								</div>
+							</div>
+						</div>
+						<div class="token-item">
+							<div class="token-item-inner">
+								<div class="left">
+									<span class="main"></span>
+									<span data-i18n-key="token_pre">Max Wallet</span>
+								</div>
+								<div class="d-flex">
+									<span> </span>
+									<span>1%</span>
+								</div>
+							</div>
+						</div>
+						<div class="token-item">
+							<div class="token-item-inner">
+								<div class="left">
+									<span class="main"></span>
+									<span data-i18n-key="token_liquidity">Marketing</span>
+								</div>
+								<div class="d-flex">
+									<span></span>
+									<span>3%</span>
+								</div>
+							</div>
+						</div>
+						<div class="token-item">
+							<div class="token-item-inner">
+								<div class="left">
+									<span class="main"></span>
+									<span data-i18n-key="token_staking">Liquidity</span>
+								</div>
+								<div class="d-flex">
+									<span></span>
+									<span>2%</span>
+								</div>
+							</div>
+						</div>
+						<div class="tax">
+							<div data-i18n-key="token_taxes">Taxes</div>
+							<strong data-i18n-key="token_buy">5% Buy Tax:</strong><span data-i18n-key="token_buy_1">
+								5% On every buy token
+							</span> <br>
+							<strong data-i18n-key="token_sell">5% Sell Tax: </strong> <span
+								data-i18n-key="token_sell_1">
+								5% On every Sell token</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="bg "></div>
+
+	<div class="modal fade modal-video-trailer" id="videoabout" tabindex="-1" role="dialog"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"> <span
+							aria-hidden="true">&times;</span> </button>
+					<iframe id="frame_video" src="" title="trailer
+							Compound Meta" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="roadmap" id="roadmap">
+		<div class="cta-bg" style="background-image:url(/images/bg/roadmap.webp)">
+		</div>
+		<div class="container">
+			<!-- <div class="section-title mb-5">
+				<img src="./images/title/5.svg" alt="LionCeo">
+			</div> -->
+			<div class="d-flex mb-5">
+				<h3 class="title-h3" data-i18n-key="roadmap">roadmap</h3>
+			</div>
+			<div class="roadmap__wrapper-two">
+				<div class="roadmap__card style-two">
+					<div class="roadmap__item active">
+						<div class="roadmap__step"><span class="tg-text-gradient d-inline-flex"
+								data-i18n-key="map_phase_1">Phase
+								01</span></div>
+						<h3 class="roadmap__heading" data-i18n-key="map_1">Pre-Launch</h3>
+						<ul class="roadmap__lists list-wrap">
+
+							<li data-i18n-key="map_1_1">Build core team</li>
+							<li data-i18n-key="map_1_2">Brainstorm Ideas</li>
+							<li data-i18n-key="map_1_3">Release Website</li>
+							<li data-i18n-key="map_1_4">Build Community</li>
+							<li data-i18n-key="map_1_5">Telegram Marketing </li>
+							<li data-i18n-key="map_1_6">Fair Launch</li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="roadmap__card style-two">
+					<div class="roadmap__item">
+						<div class="roadmap__step"><span class="tg-text-gradient d-inline-flex"
+								data-i18n-key="map_phase_2">Phase
+								02</span></div>
+						<h3 class="roadmap__heading" data-i18n-key="map_2">Launch</h3>
+						<ul class="roadmap__lists list-wrap">
+							<li data-i18n-key="map_2_1"> Growing community</li>
+							<li data-i18n-key="map_2_2"> Twitter Marketing</li>
+							<li data-i18n-key="map_2_3"> Whitepaper Release</li>
+							<li data-i18n-key="map_2_4"> Ai Project Development</li>
+							<li data-i18n-key="map_3_1"> Renounced Contract</li>
+							<li data-i18n-key="map_2_6"> CMC & CG Listing</li>
+							<li data-i18n-key="map_2_7"> Partnership marketing</li>
+							<li data-i18n-key="map_2_8"> Release Ai Doge Bot</li>
+							<li data-i18n-key="map_2_9"> Reach 2000 holders</li>
+						</ul>
+					</div>
+				</div>
+				<div class="roadmap__card style-two">
+					<div class="roadmap__item ">
+						<div class="roadmap__step"><span class="tg-text-gradient d-inline-flex"
+								data-i18n-key="map_phase_3">Phase
+								03</span></div>
+						<h3 class="roadmap__heading" data-i18n-key="map_3">Growth</h3>
+						<ul class="roadmap__lists list-wrap">
+
+							<li data-i18n-key="map_3_2">
+								Top Tier Exchange Listing
+							</li>
+							<li data-i18n-key="map_3_3"> Collab and launch new AI utilities</li>
+							<li data-i18n-key="map_3_4"> Release AI NFT Generator app</li>
+							<li data-i18n-key="map_3_6"> Release Text To Image Beta Version</li>
+							<li data-i18n-key="map_3_7"> Release Text To Speech Beta Version</li>
+							<li data-i18n-key="map_3_8"> Massive marketing campaign</li>
+							<li data-i18n-key="map_3_9"> Reach 3000 holders</li>
+							<li data-i18n-key="map_3_10">Update New Roadmap</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<img src="./images/char/asd.png" alt="" class="roadmap-img">
+
+	</div>
+
+
+	<section class="cta-area">
+		<div class="cta-bg" style="background-image:url(/images/hero/collection_cta.webp)"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-6 col-lg-8">
+					<div class="cta__content text-center">
+						<h2 class="title" data-i18n-key="lets_start">Let's start</h2>
+						<div class="custom-btn">
+							<a target="_blank"
+								href=""
+								class="button button-area">
+								<span class="button_lg">
+									<span class="button_sl"></span>
+									<span class="button_text" data-i18n-key="buy_now">Buy Now</span>
+								</span>
+							</a>
+							<a target="_blank"
+								href="https://medium.com/@dogeai_erc20"
+								class="button button-area">
+								<span class="button_lg">
+									<span class="button_sl"></span>
+									<span class="button_text" data-i18n-key="join_whitelist"> MEDIUM</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="social">
+				<div class="custom-btn">
+					<a href="https://twitter.com/DogeAiErc20" class="button" target="_blank">
+						<span class="button_lg">
+							<span class="button_sl"></span>
+							<span class="button_text"><img src="./images/icon/twitter.svg" alt="twitter"
+									class="twitter"></span>
+						</span>
+					</a>
+					<a href="https://t.me/dogeai_erc20" class="button" target="_blank">
+						<span class="button_lg">
+							<span class="button_sl"></span>
+							<span class="button_text"><img src="./images/icon/telegram.svg" alt="telegram"
+									class="twitter"></span>
+						</span>
+					</a>
+					<a href="" class="button" target="_blank">
+						<span class="button_lg">
+							<span class="button_sl"></span>
+							<span class="button_text"><img src="./images/icon/youtube.svg" alt="youtube"
+									class="twitter"></span>
+						</span>
+					</a>
+					<a href="" class="button" target="_blank">
+						<span class="button_lg">
+							<span class="button_sl"></span>
+							<span class="button_text"><img src="./images/icon/reddit.svg" alt="reddit"
+									class="twitter"></span>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer-inner">
+			<div class="container">
+				<div class="footer-row">
+					<div class="logo">
+						<img src="dogeai.png" class="logo-img" alt="LionCeo Logo">
+					</div>
+					<ul class="spaced key-nav">
+						<li><a href="#" title="About" data-i18n-key="about">About</a></li>
+						<li><a href="#utility" title="Utility" data-i18n-key="utility">Utility</a></li>
+						<li><a href="#tokenomics" title="Tokenomics" data-i18n-key="tokenomics">Tokenomics</a></li>
+						<li><a href="#roadmap" title="Roadmap" data-i18n-key="roadmap">Roadmap</a></li>
+						<li><a href="#" target="_blank" title="White Paper" data-i18n-key="whitePaper">WhitePaper</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+	<div class="scroll-up">
+		<a href="#hero" class="page-scroll"><img src="./images/top.svg" alt="LionCeo"></a>
+	</div>
+
+	<!-- <div id="my-popup" class="modal-list">
+		<div class="inner">
+			<p class="title">Listing on Pancakeswap at </p>
+			<div class="countdown">
+				<ul>
+					<li class="wp days"></li>
+					<li class="wp hrs"></li>
+					<li class="wp min"></li>
+					<li class="wp sec"></li>
+				</ul>
+				<div class="gr-btn">
+					<div class="close" onclick="ClosePopUp()">
+						<img src="./images/bg/close.svg" alt="LionCeo">
+					</div>
+					<div class="notification"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./lib/bootstrap.min.js"></script>
+	<script src="./lib/swiper-bundle.min.js"></script>
+	<script src="./lib/aos.js"></script>
+	<script src="./js/lang.js"></script>
+	<script src="./js/main.js"></script>
+
+
+</body>
+
+</html>
